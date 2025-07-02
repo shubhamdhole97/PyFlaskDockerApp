@@ -1,5 +1,5 @@
 # Pulling Base Python Image
-FROM --platform=$BUILDPLATFORM python:3.10-alpine AS builder
+FROM python:3.10-alpine AS builder
 
 # Setting Default Working Directory
 WORKDIR /app
